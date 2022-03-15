@@ -1,0 +1,578 @@
+* {
+    transition: all .4s;
+    outline: none;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+#responsive-menu-btn {
+    z-index: 999999999;
+    background-color: rgb(22,36,115);
+    color: white;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.bars-icon {
+    font-size: 3em !important;
+}
+
+.header {
+    height: 120px;
+    background-color: #1C529F;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+ul {
+    padding: 0;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: rgb(22,36,115);
+    margin: 0 2vw;
+    font-size: 1.5em;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #AC7034;
+}
+
+header nav a img {
+    height: 70px;
+    width: 80vw;
+    position: relative;
+    top: 25px;
+}
+
+
+#main-teaser {
+    width: 90vw;
+    height: 60vh;
+    background-image: url('../assets/team.png');
+    background-size: cover;
+    margin: auto;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+
+.cards-wrapper {
+    padding-top: 150px;
+}
+
+.cards-wrapper h2 {
+    text-align: center;
+}
+
+
+.card-wrapper {
+    width: 95vw;
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card-wrapper img {
+    width: 35%;
+}
+
+.identification {
+    float: right;
+    font-size: .7em;
+    line-height: 9px;
+    margin-top: 19px;
+    color: gray;
+}
+
+.policy-number {
+    font-size: .8em;
+    display: inline;
+}
+
+.effective {
+    font-size: .8em;
+    float: right;
+    display: inline;
+    position: relative;
+    right: 30px;
+}
+
+.policy-num {
+    font-size: .8em;
+    display: inline;
+}
+
+.date {
+    font-size: .8em;
+    float: right;
+    display: inline;
+    position: relative;
+    left: 27px;
+}
+
+.endorsements {
+    font-size: .6em;
+    margin-top: 10px;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    margin-bottom: 2px;
+}
+ th {
+     text-align: center !important;
+ }
+
+ .phone {
+     text-align: center;
+     margin-bottom: -15px;
+ }
+ .disclaimer {
+     text-align: center;
+ }
+
+.area-wrapper {
+    z-index: 1;
+}
+
+.areas-wrapper h2 {
+    text-align: center;
+    color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
+}
+
+#areas-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+#areas-list li {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.area-wrapper {
+    width: 30vw;
+    height: 150px;
+    border: 2px solid rgb(22,36,115);
+    background-color: rgb(22,36,115);
+}
+
+.area-picture-wrapper {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+}
+
+.area-wrapper p {
+    color: white;
+    vertical-align: middle;
+    font-size: 1.6em;
+} 
+
+.frequent-questions-wrapper {
+    z-index: 1;
+}
+
+.frequent-questions-wrapper h2 {
+    text-align: center;
+    color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
+}
+
+details {
+    margin: 10px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+summary {
+    height: 50px;
+    width: 90vw;
+    background-color: rgb(22,36,115);
+    color: white;
+    display: none;
+    margin: auto;
+    padding-left: 10px;
+}
+
+details p {
+    width: 85vw;
+    padding-left: 5vw;
+    color: rgb(22,36,115)
+}
+
+details p a {
+    text-decoration: none;
+    color: #AC7034;
+}
+
+details ul {
+    padding-left: 200px;
+}
+
+details ul li {
+    color:rgb(22,36,115)
+}
+
+#legal-team-wrapper {
+margin-top: 150px;
+}
+
+#legal-team-wrapper h2{
+    text-align: center;
+    color:rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
+}
+
+#legal-team-wrapper p{
+    color:rgb(22,36,115);
+}
+
+.attorney-wrapper {
+    width: 250px;
+}
+
+.attorneys-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.attorneys-list li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.attorney-pic-wrapper {
+    background-size: cover;
+}
+
+
+.attorney-pic-wrapper {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.attorney-name {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.testimony-wrapper {
+    z-index: 1;
+}
+.testimony-wrapper h2 {
+    text-align: center;
+    color: rgb(22,36,115);
+    font-family: 'Parisienne', cursive;
+}
+
+#testimony-video-wrapper{
+    height: 50vh;
+    width: 60vw;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#testimony-video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact-wrapper {
+    /* height: 40vh; */
+    background-color: rgb(22,36,115);
+}
+
+.contact-wrapper {
+    text-align: center;
+}
+
+.contact-wrapper h2 {
+    color: white;
+    font-family: 'Parisienne', cursive;
+}
+
+.half {
+    width: 30vw;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.full {
+    width: calc(60vw + 5px);
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.contact-wrapper textarea {
+    height: 300px;
+    resize: none;
+}
+
+.clear-form-btn {
+    background-color: rgb(22,36,115);
+    border: 2px solid white;
+    color: white;
+
+}
+
+.submit-form-btn {
+    background-color: rgb(22,36,115);
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contact-wrapper form button:hover {
+    background-color: #AC7034;
+    color:rgb(22,36,115);
+    border: 2px solid #AC7034;
+}
+
+.contact-wrapper form ul {
+    list-style-type: none;
+}
+
+.contact-wrapper form ul li {
+    display: inline;
+    margin: 0 4vw;
+}
+
+.contact-wrapper form ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+}
+
+.contact-wrapper form ul li a:hover {
+    color: #AC7034;
+}
+
+.footer {
+    background-color: white;
+}
+
+
+.footer-left {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-left address {
+    font-size: 1.5em;
+    color: rgb(22,36,115)
+}
+
+.footer-left address a {
+    color: rgb(22,36,115)
+}
+
+.footer-left address a:hover {
+    color: #AC7034;
+}
+
+.footer-right {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(22,36,115);
+}
+
+.footer-right p {
+    margin-bottom: -20px;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    
+}
+
+.footer-right a {
+    color: rgb(22,36,115)
+}
+
+.footer-right a:hover {
+    color: #AC7034;
+}
+
+
+
+
+/* Dedicated page styling */
+
+#faq-page-wrapper {
+    padding-top: 200px;
+}
+
+#areas-page {
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width : 845px) {
+
+    header nav a:not(:nth-child(4)) {
+        display: none;
+    }
+
+    #main-teaser {
+        width: 100%;
+        height: 1vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+    .area-wrapper {
+        width: 90vw;
+        height: 50px;
+        border: 2px solid rgb(22,36,115);
+        background-color: #1C529F;
+    }
+
+    .area-wrapper p a {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: white;
+    }
+
+    #testimony-video-wrapper{
+        height: 35vh;
+        width: 98vw;
+        /* margin: auto; */
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+
+    
+    
+    #testimony-video-wrapper iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .frequent-questions-wrapper details p {
+        font-size: .6em;
+        line-height: 30px;
+    }
+
+    details ul {
+        padding-left: 20px;
+    }
+
+    .frequent-questions-wrapper details ul li {
+        font-size: .6em;
+    }
+
+    summary {
+        width: 95vw;
+        font-size: .6em;
+    }
+
+    details {
+        margin-left: -5px;
+    }
+
+    #areas-list {
+        margin-left: -5px;
+    }
+
+    .contact-wrapper {
+        padding-top: 30px;
+    }
+
+    .half {
+        width: 45vw;
+    }
+
+    .full {
+        width: calc(90vw + 5px);
+    }
+
+    .attorneys-list li {
+        margin-bottom: 15px;
+    }
+
+    .attorney-pic-wrapper {
+        height: 175px;
+        width: 175px;
+        margin: auto;
+    }
+
+    .areas-wrapper h2 {
+        margin-bottom: 1px;
+    }
+
+    #responsive-menu-btn {
+        z-index: 999999999;
+        background-color: #1C529F;
+        color: white;
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        margin-top: 78vh;
+        position: absolute;
+        position: fixed;
+        margin-left: 75vw;
+        /* border: 2px solid #AC7034; */
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+    }
+
+    .bars-icon {
+        color: white;
+    }
+
+    #mobileMenu {
+        text-align: center;
+        list-style-type: none;
+    }
+
+    #mobileMenu li {
+        margin-bottom: 25px;
+    }
+
+    #mobileMenu li a{
+        text-decoration: none;
+        color:rgb(22,36,115);
+        font-size: 2em;
+
+    }
+
+    #mobileMenu li a img {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 25px;
+    }
+
+    #mobileMenu li a:hover {
+        color: #AC7034;
+    }
+
+}
